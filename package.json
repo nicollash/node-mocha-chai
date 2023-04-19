@@ -1,0 +1,21 @@
+{
+  "name": "mockapilab",
+  "version": "1.0.0",
+  "description": "A Mock API to be used with LTK Skills assesments",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha './**/*.spec.js' --recursive"
+  },
+  "author": "Tom Watson",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
